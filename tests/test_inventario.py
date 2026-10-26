@@ -7,7 +7,7 @@ def test_stock_agotado():
 
 
 def test_stock_critico():
-    assert clasificar_stock(7, 20) == "NORMAL" #Cambio a proposito 
+    assert clasificar_stock(7, 20) == "CRITICO" #Corregido :) 
 
 
 def test_stock_bajo():
